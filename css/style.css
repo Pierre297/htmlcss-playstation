@@ -50,3 +50,12 @@ footer {
 }
 
 /* navbar */
+
+/* JUMBOTRON */
+
+.ms-jumbo {
+  min-height: 500px;
+  background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
