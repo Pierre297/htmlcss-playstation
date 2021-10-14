@@ -188,3 +188,14 @@ footer {
   border-radius: 10px;
   cursor: pointer;
 }
+
+.uscite-size {
+  min-height: 522px;
+}
+
+/* Esplora play 4 */
+
+.ms-play4 {
+  margin: 50px 0px;
+  font-size: 22px;
+}
