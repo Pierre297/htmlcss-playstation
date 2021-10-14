@@ -34,6 +34,14 @@ footer {
   background-color: rgb(0 67 156);
 }
 
+.ms-blue-text {
+  color: rgb(0 114 206);
+}
+
+.ms-gray-text {
+  color: rgb(121 121 121);
+}
+
 /* HEADER */
 
 .logo-sony img {
@@ -100,4 +108,67 @@ footer {
 .ms-caselle img {
   width: 100%;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.ms-carousel {
+  margin: 40px 0;
+}
+
+/* PLAYSTATION 5 */
+
+.ms-play5 h2 {
+  color: black;
+}
+
+.ms-play5 {
+  margin-top: 20px;
+}
+
+.ms-play5-text {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ms-play5-con {
+  min-height: 500px;
+}
+
+.ms-play5-con p {
+  font-size: 21px;
+  margin: 15px 0px;
+}
+
+.btn-primary {
+  width: 200px;
+  margin: 20px 0px;
+  border-radius: 30px;
+}
+
+.ms-play5 img {
+  width: 100%;
+}
+
+/* Carousel 2 */
+
+.ms-prod-ps5 img {
+  width: 80%;
+  cursor: pointer;
+}
+
+.ms-prod-ps5 h4 {
+  color: rgb(97 97 97);
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+/* IT TAKES TWO */
+
+.ms-takes-two {
+  min-height: 700px;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  width: 100%;
 }
