@@ -172,3 +172,19 @@ footer {
   background-size: cover;
   width: 100%;
 }
+
+/* Nuove Uscite */
+
+.title-games {
+  margin: 20px 0;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nuove-uscite img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
