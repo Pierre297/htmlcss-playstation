@@ -10,8 +10,8 @@
   color: white;
   text-align: center;
   /* debug */
-  border: 1px solid black;
-  min-height: 100px;
+  /* border: 1px solid black;
+  min-height: 100px; */
 }
 
 .container {
@@ -269,4 +269,70 @@ footer {
   color: black;
   background-color: rgb(245 245 245);
   border: none;
+}
+
+.social-ps4 img {
+  width: 100%;
+}
+
+.social-media-con .container {
+  max-width: 40%;
+}
+
+.ms-social-net .ms-play4 {
+  margin: 0;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 70px;
+}
+
+.white-logo {
+  filter: invert(1%) sepia(0%) saturate(999%) hue-rotate(77deg) brightness(163%)
+    contrast(98%);
+  width: 150px;
+  display: block;
+}
+
+.footer-logo {
+  margin: 20px 0;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  color: white;
+}
+
+#ms-globe {
+  width: 20px;
+  margin: 20px 10px;
+  display: inline;
+}
+
+footer ul {
+  display: inline;
+  list-style-type: none;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 50px;
+}
+
+#sie-logo {
+  width: 150px;
+  margin: 35px 0px;
+}
+
+#sottolineatura {
+  text-decoration: underline;
+}
+
+footer .col-12 {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
 }
