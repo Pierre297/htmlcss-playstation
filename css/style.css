@@ -24,11 +24,12 @@
 
 .ms-gray-color {
   background-color: rgb(190 188 187);
-  margin: 40px 0px;
+  margin: 30px 0px;
 }
 
 .ms-darkblue-color {
   background-color: rgb(22 28 59);
+  margin: 60px 0px;
 }
 
 footer {
@@ -246,5 +247,26 @@ footer {
 .ms-plus button {
   color: rgb(48 102 230);
   background-color: rgb(217 218 220);
+  border: none;
+}
+
+/* PLAYSTATION NOW */
+
+.ms-now {
+  margin: 20px 0;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.ms-now p {
+  margin-top: 30px;
+}
+
+.ms-now button {
+  color: black;
+  background-color: rgb(245 245 245);
   border: none;
 }
