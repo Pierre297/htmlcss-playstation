@@ -24,6 +24,7 @@
 
 .ms-gray-color {
   background-color: rgb(190 188 187);
+  margin: 40px 0px;
 }
 
 .ms-darkblue-color {
@@ -40,6 +41,11 @@ footer {
 
 .ms-gray-text {
   color: rgb(121 121 121);
+}
+
+.ms-black-text {
+  color: black;
+  margin-top: 10px;
 }
 
 /* HEADER */
@@ -198,4 +204,47 @@ footer {
 .ms-play4 {
   margin: 50px 0px;
   font-size: 22px;
+}
+
+.product-ps4 {
+  text-align: start;
+}
+
+.product-ps4 img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.product-ps4 h2 {
+  color: black;
+}
+
+.product-ps4 button {
+  width: 122px;
+  margin: 20px 0px;
+  border-radius: 30px;
+}
+
+/* PLAY STATION PLUS */
+
+.ms-plus {
+  margin: 20px 0;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ms-plus-april {
+  width: 100%;
+}
+
+#ms-plus-logo {
+  width: 50%;
+}
+
+.ms-plus button {
+  color: rgb(48 102 230);
+  background-color: rgb(217 218 220);
+  border: none;
 }
