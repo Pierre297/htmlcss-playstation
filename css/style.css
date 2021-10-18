@@ -72,6 +72,24 @@ header {
 
 /* navbar */
 
+.btn-secondary {
+  border-radius: 30px;
+  background-color: rgb(54 54 54);
+  margin-left: 20px;
+}
+
+#ms-lens {
+  margin-left: 23px;
+  width: 35px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-destra {
+    display: none;
+  }
+}
+
 /* JUMBOTRON */
 
 .ms-jumbo {
