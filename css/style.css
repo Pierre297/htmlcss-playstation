@@ -225,6 +225,10 @@ header {
   min-height: 522px;
 }
 
+.title-game {
+  font-size: 21px;
+}
+
 /* Esplora play 4 */
 
 .ms-play4 {
